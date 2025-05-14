@@ -1,5 +1,9 @@
+
+package view;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        FuncionarioForm form = new FuncionarioForm();
+        form.setVisible(true);
     }
 }
